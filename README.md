@@ -1,6 +1,6 @@
 # Text generation web UI
 
-ThetaRho fork of text-generation-webui.  Expand the section below titled "Setup details and information about installing manually" and then scroll down to the "Alternative: Docker" subsection for instructions for configuring.
+[ This is the ThetaRho fork of text-generation-webui.  Expand the section below titled "Setup details and information about installing manually" and then scroll down to the "Alternative: Docker" subsection for instructions for configuring. ]
 
 
 A Gradio web UI for Large Language Models.
