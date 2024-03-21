@@ -633,9 +633,11 @@ def delete_history(unique_id, character, mode):
 
 
 def replace_character_names(text, name1, name2):
-    text = text.replace('{{user}}', name1).replace('{{char}}', name2)
-    return text.replace('<USER>', name1).replace('<BOT>', name2)
-
+    if text:
+        text = text.replace('{{user}}', name1).replace('{{char}}', name2)
+        return text.replace('<USER>', name1).replace('<BOT>', name2)
+    else:
+        return ""
 
 def generate_pfp_cache(character):
     cache_folder = Path(shared.args.disk_cache_dir)
